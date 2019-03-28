@@ -22,5 +22,5 @@ Create table for Meta tags(Seo)
 use
 
 ``` php
-echo Seo::widget('modelClass'=>MetaModel::classname());
+echo SeoWidget::widget('modelClass' => MetaModel::classname());
 ```
